@@ -1,0 +1,52 @@
+.result, .footer{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.formContainer{
+    background-image: linear-gradient(to bottom, #003B67 , #084F85);;
+    padding: 5%
+}
+
+
+.result{
+    color: white; 
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #00355D;
+}
+
+.footer button:first-child{
+    padding: 15px 40px 15px 40px;
+    width: 70%;
+    color:white; 
+    background-color: #17AA8D;
+    border: none;
+    margin-right: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer button:nth-child(2){
+    width: 30%;
+    padding: 10px 0 10px 0;
+    background-color: #0B548B;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.result p:nth-child(2){
+    font-size: 30px;
+    margin: 20px;
+}
+
+.result p:first-child{
+    font-size: 14px;
+}
+

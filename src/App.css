@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora{
+  background-color: #084F85;
+  width:50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%;
+}
