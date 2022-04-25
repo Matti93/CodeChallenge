@@ -1,8 +1,8 @@
-import "./llamar.styles.css"
+import "./form.styles.css"
 import { InputComponent } from "../input/input.component";
 import { SliderComponent } from '../slider/slider.component';
 
-export const LlamarComponent = (props) => {
+export const FormComponent = (props) => {
 
     const { title, setValue, value, config, needSimbol } = props;
 

@@ -1,12 +1,12 @@
 import './App.css';
-import { FormComponent } from './components/form/form.component';
+import { WrapperComponent } from './components/form/wrapper.component';
 import 'rc-slider/assets/index.css';
 
 function App() {
   return (
     <div className="App">
       <div className="calculadora">
-        <FormComponent />
+        <WrapperComponent />
       </div>
     </div>
 
